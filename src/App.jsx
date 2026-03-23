@@ -8,6 +8,7 @@ import { AnimatePresence } from 'framer-motion';
 // Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import LoadingScreen from './components/LoadingScreen';
 import ProtectedRoute from './components/ProtectedRoute';
 
@@ -23,6 +24,7 @@ import AdminDashboard from './pages/AdminDashboard';
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <AuthProvider>
         <div className="min-h-screen bg-luxury-light text-luxury-dark relative">
           <LoadingScreen />

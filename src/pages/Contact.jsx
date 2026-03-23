@@ -109,6 +109,8 @@ export default function Contact() {
               <option value="web">Web Design</option>
               <option value="vcard">V Card Design</option>
               <option value="xerox">Xerox Services</option>
+              <option value="webdev">Web Development</option>
+              <option value="appdev">Application Development</option>
             </select>
           </div>
 
