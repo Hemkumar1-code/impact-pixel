@@ -29,7 +29,7 @@ export default function LoadingScreen() {
               animate={{ opacity: 1 }}
               className="text-2xl font-serif text-luxury-gold"
             >
-              LUXE Design
+              Impact Pixel
             </motion.h1>
           </div>
         </motion.div>

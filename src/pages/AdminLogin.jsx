@@ -44,7 +44,7 @@ export default function AdminLogin() {
       >
         <div className="text-center mb-8">
           <h1 className="text-4xl font-serif font-bold mb-2">
-            <span className="text-luxury-gold">LUXE</span>
+            <span className="text-luxury-gold">Impact Pixel</span>
           </h1>
           <p className="text-gray-600">Admin Portal</p>
         </div>
